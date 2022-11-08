@@ -1,0 +1,76 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .btn-edit {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    background: cadetblue;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.btn-delete {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    background: red;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.model-user-container{
+
+  .modal-content{
+
+    .modal-header{
+        button{
+          background: transparent !important;
+          border: none;
+          color: wheat;
+          font-size: 28px;
+        }
+    }    
+  }
+
+  .model-user-body{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+
+    .input-container{   
+      width: 49%;
+      display: flex;
+      flex-direction: column;
+
+      &.max-width-input{
+        width: 100%;
+      }
+
+      .input-content{
+        border: 1px solid grey;
+        border-radius: 5px;
+        height: 30px;
+        padding: 9px;
+        outline: none;
+        margin-top: 6px;
+      }
+    }
+  }
+}

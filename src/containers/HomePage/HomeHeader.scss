@@ -1,0 +1,208 @@
+.home-header-container{
+    height: 77px;
+    width: 100%;
+    padding: 0 167px;
+
+    .home-header-content{
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        .left-content{
+            width: 25%;
+            align-items: center;
+            display: flex;
+            padding-left: 80px;
+            
+            .header-logo{
+                height: 100%;
+                background: url(../../assets/logoYTE.webp) center center no-repeat;
+                width: 100%;
+                cursor: pointer;
+                background-size: 213%;
+                margin-right: 100px;
+            }
+            i{
+                font-size: 25px;
+                color: grey;
+                cursor: pointer;
+
+            }
+        }
+        .center-content{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .child-content{
+                cursor: pointer;
+
+                .sub-title{
+                    font-size: 10px;
+                }
+            }
+        }
+        .right-content{
+            width: 25%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding-right: 50px;
+
+            .support{
+                margin-right: 30px;
+                cursor: pointer;
+                color: grey;
+
+                i{
+                    color: grey
+                }
+            }
+
+            // .active{
+            //     margin-right: 5px;
+            //     cursor: pointer;
+
+            //     &:hover{
+            //         font-weight: bold;
+            //     }
+            // }
+
+            // .language-vi{              
+            //     color: red;
+            // }
+
+            // .language-en{
+            //     color: blue;
+            // }
+
+            .language-vi{   
+                cursor: pointer;
+                opacity: 0.2;
+
+                &.active{
+                    opacity: 1;
+
+                    span{
+                        color: red;
+                    }
+                }
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+
+            .language-en{   
+                margin: 0 10px;
+                cursor: pointer;
+                opacity: 0.2;
+
+                &.active{
+                    opacity: 1;
+
+                    span{
+                        color: blue;
+                    }
+                }
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
+
+.home-header-banner{
+    height: 525px;
+    background: url(../../assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .content-up{       
+        height: 70%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25),rgba(255, 255, 255, 0.1));
+
+        .title1{
+            text-align: center;
+            font-size: 32px;
+            color: #fff;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 1px #333;
+            padding-top: 50px;
+        }
+    
+        .title2{
+            font-weight: bold;
+            text-align: center;
+            font-size: 32px;
+            color: #fff;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 1px #333;
+        }
+    
+        .search{
+            background: #f7d800;
+            justify-content: center;
+            margin: 0 auto;
+            width: 400px;
+            display: flex;
+            padding: 10px;
+            align-items: center;
+            border-radius: 30px;
+    
+            input{
+                background: transparent;
+                outline: none;
+                width: 300px;
+                border: none;
+                margin-left: 15px;
+            }
+        }
+    }
+
+    .content-down{
+        height: 30%;       
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 1));
+        
+        .options{
+            display: flex;
+            justify-content: center;
+            gap: 74px;
+            padding-top: 30px;
+
+            .options-child{
+                width: 100px;
+                text-align: center;
+                padding: 10px 0px;
+                cursor: pointer;
+
+                &:hover{
+                    color: #49bce2;
+                    transition: 0.5s;
+                }
+
+                .icon-child{
+                    color: #49bce2;
+                    background: white;
+                    width: 40px;
+                    height: 40px;
+                    margin: 0 auto;
+                    border-radius: 50%;
+                    padding: 10px;
+                    box-shadow: 0px 1px 2px rgb(0 ,0, 0 / 50%);
+                }
+
+                .text-child{
+                    padding-top: 5px;
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    
+}

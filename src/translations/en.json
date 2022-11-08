@@ -1,4 +1,24 @@
 {
+    "home-header": {
+        "specialty": "Medical specialty",
+        "searchdoctor": "Find a doctor by specialty",
+        "health-facility": "Health facilities",
+        "select-room": "Chọn bệnh viện phòng khám",
+        "doctor": "Doctor",
+        "select-doctor": "Choose a good doctor",
+        "fee": "Checkup packages",
+        "check-health": "General health check",
+        "support": "Support"
+    },
+    "banner": {
+        "title1": "MEDICAL BACKGROUND",
+        "title2": "COMPREHENSIVE HEALTH CARE",
+        "child1": "Specialized examination",
+        "child2": "Ask and answer",
+        "child3": "General examination",
+        "child4": "Medical products",
+        "child5": "Dental examination"
+    },
     "common": {
         "add": "Add",
         "edit": "Edit",
